@@ -1,11 +1,11 @@
 # 학습 동작 원리
-![학습 동작 원리](./%ED%95%99%EC%8A%B5%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.png)
+![학습 동작 원리](./img/%ED%95%99%EC%8A%B5%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.png)
   
 # 학습 코드
 ### [학습코드 내 경로](https://github.com/aws/sagemaker-training-toolkit/blob/master/ENVIRONMENT_VARIABLES.md)
-![input, code](./%ED%95%99%EC%8A%B5%EC%BD%94%EB%93%9C%20%EB%82%B4%20%EA%B2%BD%EB%A1%9C(input%2C%20code).png)
-![model, output, checkpoints](./%ED%95%99%EC%8A%B5%EC%BD%94%EB%93%9C%20%EB%82%B4%20%EA%B2%BD%EB%A1%9C(model%2C%20output%2C%20checkpoints).png)
-![code](./%ED%95%99%EC%8A%B5%EC%BD%94%EB%93%9C%20%EB%82%B4%20%EA%B2%BD%EB%A1%9C%20%EC%88%98%EC%A0%95%20%EC%BD%94%EB%93%9C.png)
+![input, code](./img/%ED%95%99%EC%8A%B5%EC%BD%94%EB%93%9C%20%EB%82%B4%20%EA%B2%BD%EB%A1%9C(input%2C%20code).png)
+![model, output, checkpoints](./img/%ED%95%99%EC%8A%B5%EC%BD%94%EB%93%9C%20%EB%82%B4%20%EA%B2%BD%EB%A1%9C(model%2C%20output%2C%20checkpoints).png)
+![code](./img/%ED%95%99%EC%8A%B5%EC%BD%94%EB%93%9C%20%EB%82%B4%20%EA%B2%BD%EB%A1%9C%20%EC%88%98%EC%A0%95%20%EC%BD%94%EB%93%9C.png)
   
 ### 학습 코드 예제
 #### Pytorch
@@ -63,7 +63,7 @@ estimator.fit(
 ```
 
 # 학습 디버깅
-![학습 디버깅](./%ED%95%99%EC%8A%B5%20%EB%94%94%EB%B2%84%EA%B9%85.png)
+![학습 디버깅](./img/%ED%95%99%EC%8A%B5%20%EB%94%94%EB%B2%84%EA%B9%85.png)
 ### 디버깅용 학습 코드
 ```python
 # Local Mode(디버깅 모드)
@@ -90,4 +90,4 @@ instance_type = 'ml.p4d.24xlarge'                           # 인스턴스 타�
 ```
 
 # 학습 모니터링
-![모니터링](./%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.png)
+![모니터링](./img/%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.png)

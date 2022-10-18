@@ -1,6 +1,6 @@
 # Processing 동작 원리
-![동작원리](./processing%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC.png)
-![동작원리 with s3](./processing%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%20with%20s3.png)
+![동작원리](./img/processing%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC.png)
+![동작원리 with s3](./img/processing%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%20with%20s3.png)
 
 # Processing 예제 코드
 ```python

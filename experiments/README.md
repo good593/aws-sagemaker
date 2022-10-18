@@ -1,11 +1,11 @@
 # Experiments 설명
-![Experiment, Trial](./Experiment%2C%20Trial.png)
+![Experiment, Trial](./img/Experiment%2C%20Trial.png)
 
 # [코드 예시](https://aws.amazon.com/ko/blogs/aws/amazon-sagemaker-experiments-organize-track-and-compare-your-machine-learning-trainings/)
-![코드 예시](./experiment%2C%20trail%20%EC%BD%94%EB%93%9C%20%EC%98%88%EC%8B%9C.png)
+![코드 예시](./img/experiment%2C%20trail%20%EC%BD%94%EB%93%9C%20%EC%98%88%EC%8B%9C.png)
 
 # 평가지표
-![평기지표 정의](./metric%20definitions.png)
+![평기지표 정의](./img/metric%20definitions.png)
 ```python
 import sagemaker
 from sagemaker.pytorch import Pytorch
@@ -45,5 +45,5 @@ estimator = Pytorch(
 ```
 
 # Experiments 콘솔 정보
-![정보들](./experiments%20%EC%A0%95%EB%B3%B4%EB%93%A4.png)
+![정보들](./img/experiments%20%EC%A0%95%EB%B3%B4%EB%93%A4.png)
 
