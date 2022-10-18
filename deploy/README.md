@@ -9,7 +9,10 @@
 ![모델 빌드](./img/%EB%AA%A8%EB%8D%B8%20%EB%B9%8C%EB%93%9C.png)
 
 ## [엔드포인트](./endpoint.md)
-![패턴 4가지](./img/%EB%AA%A8%EB%8D%B8%20%EC%84%9C%EB%B9%99%20%ED%8C%A8%ED%84%B4%204%EA%B0%80%EC%A7%80.png)
+![4개 추론 요약](./img/4%EA%B0%9C%20%EC%B6%94%EB%A1%A0%20%EC%9A%94%EC%95%BD.png)
+
+# 엘라스틱 추론
+![엘라스틱 추론 설명](./img/%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1%20%EC%B6%94%EB%A1%A0%20%EC%84%A4%EB%AA%85.png)
 
 # AWS SDK
 ### Deploy
@@ -35,3 +38,10 @@ predictions = xgb_predictor.predict(inf_data).decode("utf-8)
 ![오토스케일링](./img/%EC%98%A4%ED%86%A0%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81.png)
 ![오토스케일링 옵션](./img/%EC%98%A4%ED%86%A0%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%20%EC%98%B5%EC%85%98.png)
 ![오토스케일링 코드](./img/%EC%98%A4%ED%86%A0%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81%20%EC%BD%94%EB%93%9C.png)
+
+# [SageMaker Neo](https://github.com/neo-ai)
+![sagemaker neo](./img/sagemaker%20neo.png)
+![neo 코드](./img/neo%20%EC%BD%94%EB%93%9C.png)
+
+# 체크리스트 & 꿀팁
+![체크리스트](./img/%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8.png)
