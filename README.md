@@ -9,3 +9,6 @@
 
 ## [Amazon SageMaker Processing](./processing/README.md)
 - 데이터의 사전 처리, 모델 결과의 후처리 및 모델 평가를 실행할 수 있는 컴퓨팅 환경을 제공
+
+## [Amazon SageMaker Pipeline](./pipeline/README.md)
+- 스케일이 가능하고 완전 자동화된 머신러닝 워크플로 구축
