@@ -1,6 +1,8 @@
 # [AWS AIML 스페셜 웨비나 2022](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
+- [2022 웹비나 예제 소스](https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/sm-special-webinar)
+
 ## amazon SageMaker Studio
-참고 자료
+- 참고 자료
     - https://github.com/daekeun-ml/sagemaker-studio-workshop-kr
 
 ## [Amazon SageMaker Training](./training/README.md)
@@ -21,7 +23,6 @@
 
 ## [Amazon SageMaker Deploy](./deploy/README.md)
 - 참고자료
-    - [with Cloudformation](https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/sm-special-webinar/setup)
     - [4개 추론 예제](https://github.com/aws-samples/sm-model-serving-patterns)
     - [엔드포인트 또는 컴파일 예제](https://github.com/aws-samples/sagemaker-inference-samples-kr)
     - [Nvidia Jetson Nano](https://github.com/aws-samples/aiot-e2e-sagemaker-greengrass-v2-nvidia-jetson)
