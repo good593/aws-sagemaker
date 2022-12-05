@@ -1,3 +1,6 @@
+# [SageMaker Pipeline Project](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/sagemaker/sm-pipeline/amazon-sagemaker-reusable-components-kr/README.md)
+![SageMaker Pipeline Project](./img/SageMaker%20Pipeline%20Project.png)
+
 # 머신러닝 라이프 싸이클
 ![머신러닝 싸이클](./img/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EC%8B%B8%EC%9D%B4%ED%81%B4.png)
 # SageMaker Pipeline

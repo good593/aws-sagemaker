@@ -13,6 +13,19 @@
 import sagemaker
 from sagemaker.pytorch import Pytorch
 
+############################
+# 모델 소스 영역
+############################
+def train_sagemaker(args):
+    if os.environ.get('SM_CURRENT_HOST') is not None:
+        args.train_data_path = os.environ.get('SM_CHANNEL_TRAINING') # SM_CHANNEL_ + 대문자 채널명(채널명은 주피터 소스에서 정의) 
+        args.model_dir = os.environ.get('SM_MODEL_DIR')
+        args.output_data_dir = os.environ.get('SM_OUTPUT_DATA_DIR')
+    return args
+
+############################
+# 주피터 소스 영역
+############################
 sagemaker_session = sagemaker.Session()
 role = sagemaker.get_execution_role()
 
@@ -40,6 +53,7 @@ estimator = Pytorch(
     checkpoint_s3_uri=checkpoint_s3_uri     # checkpoints 저장 s3 위치
 )
 
+# 채널명 정의
 channel_name = "training"
 # s3인 경우
 data_path = "s3://my_bucket/my_training_data/"
@@ -58,8 +72,11 @@ estimator.fit(
     inputs={
         channel_name : data_path,
     },
-    job_name=job_name
+    job_name=job_name,
+    wait=False # 주피터 노트북인 경우에는 False 
 )
+
+estimator.logs() # estimaotor의 작업 로그 확인
 ```
 
 # 학습 디버깅

@@ -1,5 +1,5 @@
 # [AWS AIML 스페셜 웨비나 2022](https://www.youtube.com/playlist?list=PLORxAVAC5fUULZBkbSE--PSY6bywP7gyr)
-- [2022 웹비나 예제 소스](https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/sagemaker/sm-special-webinar)
+- [2022 웹비나 예제 소스](./aws/sm-special-webinar/README.md)
 
 ## amazon SageMaker Studio
 - 참고 자료

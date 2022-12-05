@@ -2,6 +2,9 @@
 ![동작원리](./img/processing%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC.png)
 ![동작원리 with s3](./img/processing%20%EB%8F%99%EC%9E%91%EC%9B%90%EB%A6%AC%20with%20s3.png)
 
+### [CDK: Pyspark with SageMaker](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_processing/spark_distributed_data_processing/sagemaker-spark-processing.html)
+- [예제](./jupyter_notebook_sample_pyspark_preprocessing.ipynb)
+
 # Processing 예제 코드
 ```python
 from sagemaker.sklearn.precessing import SKLearnProcessor

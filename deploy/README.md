@@ -10,6 +10,7 @@
 
 ## [엔드포인트](./endpoint.md)
 ![4개 추론 요약](./img/4%EA%B0%9C%20%EC%B6%94%EB%A1%A0%20%EC%9A%94%EC%95%BD.png)
+### [endpoint with api gateway](https://aws.amazon.com/ko/blogs/korea/creating-a-machine-learning-powered-rest-api-with-amazon-api-gateway-mapping-templates-and-amazon-sagemaker/)
 
 # 엘라스틱 추론
 ![엘라스틱 추론 설명](./img/%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1%20%EC%B6%94%EB%A1%A0%20%EC%84%A4%EB%AA%85.png)
